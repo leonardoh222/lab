@@ -5,7 +5,7 @@ SQL injection is the ability of an attacker to execute arbitrary SQL into an ins
 The way SQL injections are constructed is by the use of escape characters such as `'` which allows an attacker to escape out of the intended query with their own input and execute another query directly against the database.
 
 For example, let's say we had some logic such as the following (in pseudocode):
-
+teste
 ```
 username := user input from HTML form
 password := user input from HTML form
